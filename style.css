@@ -80,6 +80,15 @@ h1 {
 
 @media (max-width: 600px) {
 
+
+    .container {
+        background-color: #fff;
+        width: 90svw;
+        height: auto;
+        margin-top: 40px;
+        padding-top: 5px;
+    }
+
     body {
         background: #812a9b;
         background: linear-gradient(90deg, rgba(129, 42, 155, 1) 0%, rgba(199, 175, 87, 1) 50%, rgba(83, 237, 127, 1) 100%);
@@ -89,11 +98,11 @@ h1 {
     }
 
     img {
-        width: 60lvw;
+        width: 80svw;
         height: 30lvh;
         border-radius: 10px;
         border: 1px solid black;
-    
+
         -webkit-box-shadow: 9px 8px 5px 0px rgba(235, 202, 235, 0.59);
         -moz-box-shadow: 9px 8px 5px 0px rgba(235, 202, 235, 0.59);
         box-shadow: 9px 8px 5px 0px rgba(235, 202, 235, 0.59);
@@ -112,9 +121,15 @@ h1 {
 
     img:hover {
         box-shadow: 0 0 50px 15px #48abe0;
-        width: 60lvw;
+        width: 80svw;
         height: 30lvh;
         transition: 0.2s ease-in;
     }
+
+    figure {
+        margin:  auto;
+    }
+
+
 
 }
